@@ -43,11 +43,22 @@ var APP_DATA = {
           "title": "GEC",
           "text": "Print stuff here because printing at AdDU is super expensive.<br>"
         },
+        
+      ],
+      "mediaHotspots": [
         {
           "yaw": -0.6712061885332226,
           "pitch": -0.0028206919225457483,
           "title": "JFC",
-          "text": "RIP :( T_T <br>"
+          "content": `<img src='https://i1.wp.com/pressureluckcooking.com/wp-content/uploads/2020/03/Fried-Chicken.jpg?fit=1200%2C1200&ssl=1' />`,
+          "contentType": "image"
+        },
+        {
+          "yaw": 0.31615896303432187,
+          "pitch": -0.005891069216344434,
+          "title": "Sample PDF",
+          "content": `<iframe src="https://drive.google.com/file/d/1wz3MAzP9z1CUKoJWvNQ_-gl9Dpg3j5L8/preview" width="640" height="480"></iframe>`,
+          "contentType": "pdf",
         }
       ]
     },
@@ -169,11 +180,14 @@ var APP_DATA = {
           "title": "Map of AdDU<br>",
           "text": "Full image here.<br>"
         },
+      ],
+      "mediaHotspots": [
         {
           "yaw": 2.0910015562676927,
           "pitch": 0.07325266337577752,
-          "title": "Flagpoles",
-          "text": "Contains the Philippines flag &amp; the AdDU flag<br>"
+          "title": "Blue Knight Song (University Hymn)",
+          "content": `<iframe width="560" height="315" src="https://www.youtube.com/embed/oKprGc3eOuU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
+          "contentType": "video"
         }
       ]
     },
